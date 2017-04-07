@@ -4,6 +4,17 @@ The script is designed for scraping hotel prices from Trivago website.
 
 It saves scraping result in easy to read HTML file.
 
+# Additional requirements
+## Windows
+You have to download latest version of PhantomJS and place it in browsers/windows directory.
+
+You can download it from here: http://phantomjs.org/download.html
+
+## Linux
+You have to install latest version of PhantomJS.
+
+Here is an instruction: https://gist.github.com/julionc/7476620
+
 # Usage
 ```
 $ app
