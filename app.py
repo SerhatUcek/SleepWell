@@ -77,8 +77,7 @@ class SleepWell:
                             break
                 pbar.update(1)
         hotels = sorted(hotels, key=lambda k: k['Price'])
-        save(self.report, hotels, self.location, self.date_from, self.date_to, self.stars,
-             self.reviews, self.distance, self.max_price)
+        save(self.report, hotels)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
